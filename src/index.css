@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom safety overrides for smooth inputs and active focus outlines */
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25) !important;
+}
+
+/* Custom scroll bar style for table previews */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 30, 60, 0.4) !important;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Custom Frosted Glass System Theme Overrides */
+#root {
+  background-color: #001e3c;
+  color: #cbd5e1;
+}
+
+/* Transform standard white background panels into gorgeous glass panels */
+.bg-white {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: #f1f5f9 !important;
+}
+
+/* Dropdowns & Modals */
+.shadow-sm, .shadow-md, .shadow-lg, .shadow-xl, .shadow-2xl {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Style headers */
+h1, h2, h3, h4, h5, h6 {
+  color: #f8fafc !important;
+}
+
+/* Override text slate colors */
+.text-slate-900, .text-slate-800, .text-slate-700 {
+  color: #f1f5f9 !important;
+}
+.text-slate-600, .text-slate-500 {
+  color: #cbd5e1 !important;
+}
+.text-slate-400 {
+  color: #94a3b8 !important;
+}
+
+/* Custom states for specific items to look extremely clear and premium */
+.text-blue-600, .text-blue-700 {
+  color: #60a5fa !important;
+}
+.text-emerald-600, .text-emerald-700 {
+  color: #34d399 !important;
+}
+.text-amber-500, .text-amber-600, .text-amber-700 {
+  color: #fbbf24 !important;
+}
+
+/* Dynamic background sections */
+.bg-blue-50, .bg-blue-50\/50, .bg-blue-100 {
+  background-color: rgba(59, 130, 246, 0.15) !important;
+  color: #93c5fd !important;
+  border-color: rgba(59, 130, 246, 0.3) !important;
+}
+.bg-emerald-50, .bg-emerald-50\/50, .text-emerald-800 {
+  background-color: rgba(16, 185, 129, 0.15) !important;
+  color: #a7f3d0 !important;
+  border-color: rgba(16, 185, 129, 0.3) !important;
+}
+.bg-amber-50, .bg-amber-100 {
+  background-color: rgba(245, 158, 11, 0.15) !important;
+  color: #fde68a !important;
+  border-color: rgba(245, 158, 11, 0.3) !important;
+}
+.bg-rose-50, .bg-pink-50, .bg-red-50 {
+  background-color: rgba(239, 68, 68, 0.15) !important;
+  color: #fca5a5 !important;
+  border-color: rgba(239, 68, 68, 0.3) !important;
+}
+
+/* Light background replacements for table/list dividers/tracks */
+.bg-slate-50, .bg-slate-50\/50, .bg-slate-100 {
+  background-color: rgba(255, 255, 255, 0.04) !important;
+  color: #e2e8f0 !important;
+}
+
+/* Borders overrides */
+.border-slate-100, .border-slate-200, .border-slate-50 {
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Overriding specific hover backgrounds to retain glass feel */
+.hover\:bg-slate-50:hover, .hover\:bg-slate-100:hover, .hover\:bg-white\/5:hover {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Overriding Table and Headings background */
+thead, .bg-slate-50 th {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  color: #94a3b8 !important;
+}
+
+/* Input fields and selects */
+input, select, textarea {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  color: #f8fafc !important;
+}
+input::placeholder {
+  color: #64748b !important;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Union Connect",
+  "description": "Hệ thống Quản lý Đoàn viên & Truyền thông Nội bộ Công ty CP Dịch vụ Kỹ Thuật Mobifone (MobifoneService)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

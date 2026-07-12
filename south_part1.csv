@@ -1,0 +1,202 @@
+TT,Họ và tên,Mã nhân viên ,Căn cước công dân,Chức vụ công đoàn ,"Chức vụ, đơn vị công tác hiện nay","Ngày, tháng,
+ năm sinh",,Dân tộc,Quê quán,Ngày vào Đảng,Học vấn phổ thông,Chuyên môn,Chính trị,Ngoại ngữ,Email,Điện thoại,"Bộ phận, phòng ban"
+1,Tô Thị Hồng Phước,MFS00125,079183027597,Công đoàn viên,Giám đốc,,07/07/1983,Kinh,TP.Hồ Chí Minh,,12/12,Thạc sĩ,,,phuoctth@mobifoneservice.com.vn,907925975,MN_Ban Giám đốc
+2,Ngô Tấn Vũ,MFS00126,094083009619,Chủ tịch CĐCS,Trưởng phòng Kinh Doanh và Vận hành Dịch vụ,01/07/1983,,Hoa,Sóc Trăng,,12/12,Thạc sĩ,,,vunt@mobifoneservice.com.vn,939004000,MN_Phòng KD và VHDV
+3,Nguyễn Thị Diễm Trang,MFS00127,092186002847,UV BCH CĐCS,Phó phòng Kinh Doanh và Vận hành Dịch vụ,,27/01/1986,Kinh,Cần Thơ,,12/12,Thạc sĩ,,,trangntd@mobifoneservice.com.vn,907270186,MN_Phòng KD và VHDV
+4,Ngô Đình Hảo,DTV00328,091087018686,Công đoàn viên,Chuyên viên triển khai & Phát triển sản phẩm dịch vụ,20/12/1987,,Kinh,Kiên Giang,,12/12,Cao đẳng,,,haond@mobifoneservice.com.vn,937804454,MN_Phòng KD và VHDV
+5,Nguyễn Phước Trung,MFS00365,093098008292,Tổ Phó CĐ,CV Kỹ thuật,23/12/1998,,Kinh,Hậu Giang,,12/12,Đại học,,,trungnp@mobifoneservice.com.vn,706454469,MN_Phòng KD và VHDV
+6,Nguyễn Thị Kim Kiều,MFS00304,092183011863,Tổ trưởng CĐ,Chuyên viên HCNS,,05/07/1983,Kinh,Cần Thơ,,12/12,Đại học,,,kieuntk@mobifoneservice.com.vn,902964859,MN_Phòng HCTH
+7,Lê Thị Mộng Thi,MFS00261,082194004252,Tổ Phó CĐ,CV.Kế toán tiền lương,,24/10/1994,Kinh,Tiền Giang,,12/12,Đại học,,,thiltm@mobifoneservice.com.vn,901 524130,MN_Phòng HCTH
+8,Nguyễn Hồng Diễm,MFS00129,096188000277,Tổ trưởng CĐ,TP.HCTH,,02/10/1988,Kinh,Cà Mau,,12/12,Đại học,,,diemnh@mobifoneservice.com.vn,939248085,MN_Phòng HCTH
+9,Trần Nguyễn Đăng Khoa,MFS00108,092084003828,Công đoàn viên,Phó phòng HTVT,27/06/1984,,Kinh,Cần Thơ,,12/12,Đại học,,,khoantd@mobifoneservice.com.vn,0904500082,MN_Phòng VH HTVT
+10,Cao Lưu Bá Phúc,MFS00383,086090000108,Công đoàn viên,CV VH HTVT,22/05/1990,,Kinh,Cần Thơ,,12/12,Đại học,,,phucclb@mobifoneservice.com.vn,907074607,MN_Phòng VH HTVT
+11,Dương Khắc Anh Minh,HT02717,092092008861,Công đoàn viên,Nhân viên lái xe,13/11/1992,,Kinh,Cần Thơ,,12/12,Đại học,,,duongkhacanhminh@gmail.com,939351245,MN_Phòng HCTH
+12,Trương Minh Quân,MFS00096,079080014814,UV BCH CĐCS,Phó phòng Kinh Doanh và Vận hành Dịch vụ,16/12/1980,,Kinh,Hà Nam,,12/12,Đại học,,,quantm@mobifoneservice.com.vn,903333551,MN_Phòng KD và VHDV
+13,Hoàng Thị Oanh,MFS00279,040193017899,Công đoàn viên,Chuyên viên triển khai & Phát triển sản phẩm dịch vụ,,28/07/1993,Kinh,Nghệ An,06/06/2014,12/12,Đại học,,,oanhht@mobifoneservice.com.vn,0901327328,MN_Phòng KD và VHDV
+14,Trần Hà Trung,MFS00288,079093024093,Công đoàn viên,Chuyên viên triển khai & Phát triển sản phẩm dịch vụ,,07/12/1993,Kinh,TP Hồ Chí Minh,07/11/2016,12/12,Đại học,,,trungth@mobifoneservice.com.vn,0903657522,MN_Phòng KD và VHDV
+15,Đoàn Thị Minh Nhung,DTV00756,066188004387,UV UBKT,Chuyên viên HCNS,,31/08/1988,Kinh,Quảng Ngãi,,12/12,Đại học,,,nhungdtm@mobifoneservice.com.vn,0932749228,MN_Phòng HCTH
+16,Phan Thị Bích Nữ,MFS00266,054188000090,Công đoàn viên,Chuyên viên triển khai & Phát triển sản phẩm dịch vụ,,07/08/1988,Kinh,Phú Yên,,12/12,Đại học,,,nuptb@mobifoneservice.com.vn,0909507888,MN_Phòng KD và VHDV
+17,Tô Nữ Thanh Nhàn,MFS00367,062187001618,Công đoàn viên,Chuyên viên triển khai & Phát triển sản phẩm dịch vụ,,23/10/1987,Kinh,Quảng Ngãi,,12/12,Đại học,,,nhantnt@mobifoneservice.com.vn,0985711606,MN_Phòng KD và VHDV
+18,Hà Văn Huy,MFS00260,079086000429,Công đoàn viên,CV Kỹ thuật,14/10/1986,,Kinh,TP Hồ Chí Minh,,12/12,Đại học,,,huyhv@mobifonservice.com.vn,0778908119,MN_Phòng KD và VHDV
+19,Nguyễn Thị Thanh Tuyền,MFS00250,051194009951,Công đoàn viên,Chuyên viên HCNS,,17/09/1994,Kinh,Quảng Ngãi,,12/12,Đại học,,,tuyenntt@mobifoneservice.com.vn,0936964112,MN_Phòng HCTH
+20,Hoàng Thị Thanh Xuân,MFS00360,079188010316,Công đoàn viên,CV.Kế toán tiền lương,,08/01/1988,Kinh,Hà Tĩnh,,12/12,Đại học,,,xuanhtx@mobifoneservice.com.vn,0903004040,MN_Phòng HCTH
+21,Nguyễn Đặng Hạ Thy,MFS00094,051182009147,Công đoàn viên,CV Phòng Kế hoạch Kinh doanh Công ty,,14/05/1982,Kinh,Quãng Ngãi,,12/12,Cao Đẳng,,,thyndh@mobifoneservice.com.vn,767856768,CTY_PKHKD
+22,Nguyễn Quang Huy,MFS00375,079093000508,Công đoàn viên,CV Phòng Công nghệ số Công ty,15/01/1993,,Kinh,Thanh Hóa,,12/12,Đại học,,,huynq@mobifoneservice.com.vn,961561330,CTY_PCNS
+23,Nguyễn Phương Bắc,DTV00439,092091001361,UV BCH CĐCS,Điều hành ca,15/05/1991,,Kinh,Cần Thơ,,12/12,Đại học,,,bacnp@mobifoneservice.com.vn,939052118,MN_DTV_Inbound
+24,Đoàn Vũ Luân,DTV02738,093097008358,Công đoàn viên,Trưởng ca,01/05/1997,,Kinh,Cần Thơ,,12/12,Cao Đẳng,,,Vuluanhg@gmail.com,93849191,MN_DTV_Inbound
+25,Thái Thị Mỹ Duyên,DTV00377,092188016553,Công đoàn viên,Xử lý viên,,25/11/1988,Kinh,Cần Thơ,,12/12,Cao đẳng,,,duyenttm.ctv@mobifoneservice.com.vn,788798669,MN_DTV_Inbound
+26,Trần Thúy Kiều,DTV00345,086187006664,Công đoàn viên,Xử lý viên thai sản,,09/07/1987,Kinh,Vĩnh Long,,12/12,Đại học,,,kieutt1987@gmail.com,939924020,MN_DTV_Inbound
+27,Nguyễn Văn Thắng,DTV01579,093095007763,Công đoàn viên,Giám sát viên,10/11/1995,,Kinh,Hậu Giang,,12/12,Đại học,,,thang.nguyenvan1008@gmail.com,898240506,MN_DTV_Inbound
+28,Trần Thụy Khương,DTV00320,087184018390,Công đoàn viên,Nhân viên tư vấn,,18/02/1984,Kinh,Đồng Tháp,,12/12,Đại học,,,Khuongtt.mobifoneservices1@gmail.com,939540986,MN_DTV_Inbound
+29,Nguyễn Minh Đoàn,DTV02131,092095010599,Công đoàn viên,Nhân viên tư vấn,03/12/1995,,Kinh,Cần Thơ,,12/12,Cao Đẳng,,,doannm.ctv@mobifoneservice.com.vn,939148862,MN_DTV_Inbound
+30,Phạm Ngọc Thanh,DTV02658,087099001246,Công đoàn viên,Nhân viên tư vấn,28/07/1999,,Kinh,Đồng Tháp,,12/12,Đại học,,,pnthanh280799@gmail.com,896624361,MN_DTV_Inbound
+31,Nguyễn Thị Hồng Y,DTV00379,092189014678,Công đoàn viên,Nhân viên tư vấn,,24/12/1989,Kinh,Cần Thơ,,12/12,Trung cấp,,,nguyenhongy2412@gmail.com,938267085,MN_DTV_Inbound
+32,Nguyễn Thanh Thảo,DTV02157,091194010656,Công đoàn viên,Nhân viên tư vấn ,,26/03/1994,Kinh,Kiên Giang,,12/12,Đại học,,,thanh_thao2412@yahoo.com.vn,939384609,MN_DTV_Inbound
+33,Nguyễn Thị Hiếu,DTV02368,089196010714,Công đoàn viên,Nhân viên tư vấn,,08/02/1996,Kinh,An Giang,,12/12,Đại học,,,hieunguyen1752016@gmail.com,938415925,MN_DTV_Inbound
+34,Huỳnh Nguyệt Dung,DTV02470,094197007253,Công đoàn viên,Nhân viên tư vấn,,17/11/1997,Kinh,Sóc Trăng,,12/12,Đại học,,,hndung1711@gmail.com,792265472,MN_DTV_Inbound
+35,Nguyễn Thị Điểu,DTV00347,093183002399,Công đoàn viên,Nhân viên tư vấn,,01/01/1983,Kinh,Hậu Giang,,12/12,Đại học,,,dieunt1.mobifoneservice@gmail.com,898026427,MN_DTV_Inbound
+36,Phan Thị Bích Tuyền,DTV00361,091187011415,Công đoàn viên,Nhân viên tư vấn,,09/10/1987,Kinh,Cần Thơ,,12/12,Cao đẳng,,,tuyenptb.mobifoneservice@gmail.com,939058506,MN_DTV_Inbound
+37,Lâm Thị Thanh Phấn,DTV00363,52185016783,Công đoàn viên,Nhân viên tư vấn,,20/10/1985,Kinh,Cà Mau,,12/12,Trung cấp,,,lamthithanhphan201085@gmail.com,939606242,MN_DTV_Inbound
+38,Hồ Thị Hương Giang,DTV01383,095190011830,Công đoàn viên,Nhân viên tư vấn,,26/09/1990,Kinh,Bạc Liêu,,12/12,Đại học,,,gianghth.mfscto@gmail.com,762820252,MN_DTV_Inbound
+39,Nguyễn Ngọc Huyền,DTV02182,096194011483,Công đoàn viên,Nhân viên tư vấn,,26/03/1994,Kinh,Cà Mau,,12/12,Đại học,,,Nnhuyen2603@gmail.com,949588442,MN_DTV_Inbound
+40,Lê Minh Phương,DTV02656,092094000315,Công đoàn viên,Nhân viên tư vấn,04/09/1994,,Kinh,Tp. Cần Thơ,,12/12,Đại học,,,phuongle040994@gmail.com,932927294,MN_DTV_Inbound
+41,Nguyễn Thị Diễm My,DTV03041,096197007662,Công đoàn viên,Nhân viên tư vấn,,30/07/1997,Kinh,Cà Mau,,12/12,Đại học,,,diemmy776@gmail.com,787926289,MN_DTV_Inbound
+42,Lê Thị Thúy An,DTV03043,086194002724,Công đoàn viên,Nhân viên tư vấn,,05/01/1994,Kinh,Vĩnh Long,18/12/2017,12/12,Đại học,,,thuyan3194@gmail.com,787107694,MN_DTV_Inbound
+43,Nguyễn Khôi Nguyên,DTV03046,086201004550,Công đoàn viên,Nhân viên tư vấn,18/01/2001,,Kinh,Cần Thơ,,12/12,Đại học,,,khoi18726@gmail.com,798063197,MN_DTV_Inbound
+44,Nguyễn Thị Cẩm Thúy,DTV02549,092199001386,Công đoàn viên,Nhân viên tư vấn,,20/10/1999,Kinh,Cần Thơ,,12/12,Đại học,,,thuythuycantho1999@gmail.com,939143562,MN_DTV_Inbound
+45,Võ Thị Huyền Trân,DTV03137,095301005040,Công đoàn viên,Nhân viên tư vấn,,05/07/2001,Kinh,Bạc Liêu,,12/12,Đại học,,,vthtran75@gmail.com,792155701,MN_DTV_Inbound
+46,Võ Thị Thảo Quyên,DTV00409,093192002664,Công đoàn viên,Nhân viên tư vấn,,01/01/1992,Kinh,Hậu Giang,,12/12,Cao đẳng,,,ttcd5.mobifoneservice@gmail.com,938267085,MN_DTV_Inbound
+47,Lâm Hoàng Qui,DTV03182,086201010857,Công đoàn viên,Nhân viên tư vấn,15/03/2001,,Kinh,Vĩnh Long,,12/12,Đại học,,,Lamhoangqui15031002@gmail.com,898995071,MN_DTV_Inbound
+48,Huỳnh Tuyết Phương,DTV02903,092195012539,Công đoàn viên,Nhân viên tư vấn,,15/01/1995,Hoa, Cần Thơ,,12/12,Đại học,,,pict2012@gmail.com,932979650,MN_DTV_Inbound
+49,Trương Mạn Ngọc,DTV02894,089191011532,Công đoàn viên,Nhân viên tư vấn,,18/11/1991,Kinh, An Giang,,12/12,Đại học,,,tmangoc18@gmail.com,776803611,MN_DTV_Inbound
+50,Lê Ngọc Thúy,DTV03424,086303010281,Công đoàn viên,Nhân viên tư vấn,,24/03/2003,Kinh,Vĩnh Long,,12/12,Đại học,,,24032003lnt@gmail.com,0973363709,MN_DTV_Inbound
+51,Lê Ngọc Trâm,DTV02482,086199006714,Công đoàn viên,Nhân viên tư vấn,,02/09/1999,Kinh,Vĩnh Long,,12/12,Đại học,,,291999tram@gmail.com,0783226700,MN_DTV_Inbound
+52,Nguyễn Thị Ngọc Chăm,DTV03498,092198000832,Công đoàn viên,Nhân viên tư vấn,,01/09/1998,Kinh,Thành phố Cần Thơ,,12/12,Đại học,,,ntnchamct@gmail.com,0704873682,MN_DTV_Inbound
+53,Trần Quốc Tiến,DTV03499,092202003959,Công đoàn viên,Nhân viên tư vấn,24/06/2002,,Kinh,Thành phố Cần Thơ,,12/12,Đại học,,,tientran23409@gmail.com,0939281133,MN_DTV_Inbound
+54,Phạm Nguyễn Việt Hương,DTV03644,091303006785,Công đoàn viên,Nhân viên tư vấn,,28/08/2003,Kinh,Tỉnh An Giang,,12/12,Đại học,,,phamhuong0144@gmail.com,0824656664,MN_DTV_Inbound
+55,Trương Thị Diễm Quỳnh,DTV03645,092302005459,Công đoàn viên,Nhân viên tư vấn,,04/10/2002,Kinh,Thành phố Cần Thơ,,12/12,Đại học,,,quynhdiem51@gmail.com,'0798596710,MN_DTV_Inbound
+56,Ngô Thị Nhã Linh,DTV03413,087303003088,Công đoàn viên,Nhân viên tư vấn,,25/04/2003,Kinh,Tỉnh Đồng Tháp,,12/12,Đại học,,,nhalinh250403@gmail.com,0799917098,MN_DTV_Inbound
+57,Trần Thị Mai Phương,DTV03647,092303004338,Công đoàn viên,Nhân viên tư vấn,,12/07/2003,Kinh,Thành phố Cần Thơ,,12/12,Đại học,,,mphuongg68@gmail.com,0932626067,MN_DTV_Inbound
+58,Huỳnh Thị Anh Thư,DTV03649,092301000838,Công đoàn viên,Nhân viên tư vấn,,19/09/2001,Kinh,Thành phố Cần Thơ,,12/12,Cao đẳng,,,htanhthu199@gmail.com,0949109741,MN_DTV_Inbound
+59,Lê Thị Quỳnh Như,DTV03719,092303005251,Công đoàn viên,Nhân viên tư vấn,,22/05/2003,Kinh,Thành phố Cần Thơ,,12/12,Cao đẳng,,,lethiquynhnhu123a@gmail.com,0775845075,MN_DTV_Inbound
+60,Nguyễn Quốc Việt,DTV03720,086201003496,Công đoàn viên,Nhân viên tư vấn,04/01/2001,,Kinh,Tỉnh Vĩnh Long,,12/12,Đại học,,,quocviettt41@gmail.com,0939406102,MN_DTV_Inbound
+61,Phạm Thị Trúc Phương,DTV00333,092189008090,Công đoàn viên,Nhân viên tư vấn,,13/01/1989,Kinh,Cần Thơ,,12/12,Cao đẳng,,,phuongptt@mobifoneservice.com.vn,939217893,MN_DTV_Inbound
+62,Trần Ngọc Hoài,DTV00448,091191010428,Công đoàn viên,Nhân viên tư vấn,,03/11/1991,Kinh,Kiên Giang,,12/12,Đại Học,,,hoaitn.ctv@mobifoneservice.com.vn,907405246,MN_DTV_Inbound
+63,Nguyễn Yến Phi,DTV02480,096197004844,Công đoàn viên,Nhân viên tư vấn,,15/05/1997,Kinh,Cà Mau,,12/12,Đại học,,,anhphi15051997@gmail.com,783759190,MN_DTV_Inbound
+64,Ngô Thanh Tuyền,DTV00348,091088019727,Công đoàn viên,Nhân viên tư vấn,06/05/1988,,Kinh,Kiên Giang,,12/12,Đại học,,,tuyennt.ctv@mobifoneservice.com.vn,795273685,MN_DTV_Inbound
+65,Danh Xà Sích,DTV01030,091087009433,Công đoàn viên,Nhân viên tư vấn,15/01/1987,,Khmer,Kiên Giang,,12/12,Trung Cấp,,,danhxasich@gmail.com,0908060856,MN_DTV_Inbound
+66,Lê Nguyễn Nhữ,DTV01821,089189019153,Công đoàn viên,Nhân viên tư vấn,,30/08/1989,Kinh,An Giang,,12/12,Cao đẳng,,,lenguyennhu1989@gmail.com,0931319897,MN_DTV_Inbound
+67,Phạm Thị Loan Nhi,DTV02548,093199000168,Công đoàn viên,Nhân viên tư vấn,,07/05/1999,Kinh,Hậu Giang,,12/12,Đại học,,,loannhi7777@gmail.com,788798668,MN_DTV_Inbound
+68,Trần Chí Hảo,DTV03044,096099009438,Công đoàn viên,Nhân viên tư vấn,16/05/1999,,Kinh,Cà Mau,,12/12,Đại học,,,tranchihao1605@gmail.com,774704076,MN_DTV_Inbound
+69,Phạm Trần Hoàng Trinh,DTV03042,094301000092,Công đoàn viên,Nhân viên tư vấn,,30/11/2001,Kinh,Cần Thơ,,12/12,Đại học,,,htrinh3011@gmail.com,765904452,MN_DTV_Inbound
+70,Nguyễn Thanh Phương,DTV02802,092094003600,Công đoàn viên,Nhân viên tư vấn,23/12/1994,,Kinh,Cần Thơ,,12/12,Đại học,,,phuongnt.ctho@gmail.com,899648791,MN_DTV_Inbound
+71,Nguyễn Châu Hữu Bằng,DTV02363,086098001060,Công đoàn viên,Nhân viên tư vấn,09/09/1998,,Kinh,Vĩnh Long,,12/12,Đại học,,,huubang09091998@gmail.com,907975113,MN_DTV_Inbound
+72,Tiêu Kiều Trinh,DTV00436,092188004451,Công đoàn viên,Nhân viên tư vấn,,26/03/1988,Hoa,Cần Thơ,,12/12,Cao đẳng,,,trinh996033@gmail.com,932996033,MN_DTV_Inbound
+73,Nguyễn Trung Kiên,DTV03138,093201008362,Công đoàn viên,Nhân viên tư vấn,24/02/2001,,Kinh,Hậu Giang,,12/12,Đại Học,,,nguyentrungkien9a52015@gmail.com,706794121,MN_DTV_Inbound
+74,Nguyễn Thị Phương Đài,DTV02699,084199001701,Công đoàn viên,Nhân viên tư vấn,,12/02/1999,Kinh,Tỉnh Trà Vinh,,12/12,Đại học,,,Phuongdaitv99@gmail.com,898026427,MN_DTV_Inbound
+75,Võ Thị Thùy Ngân,DTV03518,092304007973,Công đoàn viên,Nhân viên tư vấn,,25/11/2004,Kinh,Cần Thơ,,12/12,Cao đẳng,,,vothithuyngan2511@gmail.com,0397224784,MN_DTV_Inbound
+76,Trần Minh Thuận,DTV03527,094098011220,Công đoàn viên,Nhân viên tư vấn,01/01/1998,,Kinh,Tỉnh Sóc Trăng,,12/12,Đại học,,,tranminhthuancnh@gmail.com,0775859534,MN_DTV_Inbound
+77,Huỳnh Thị Yến Loan,DTV01842,083188006493,Công đoàn viên,Nhân viên tư vấn,,08/02/1988,Kinh,Bến Tre,,12/12,Cao đẳng,,,yenloan821988@gmail.com,0963687254,MN_DTV_Inbound
+78,Đinh Thị Quế Trân,DTV03702,094303000157,Công đoàn viên,Nhân viên tư vấn,,15/10/2003,Kinh,Thành phố Cần Thơ,,12/12,Đại học,,,cantho222019@gmail.com,0774432589,MN_DTV_Inbound
+79,Nguyễn Thị Yến Nhi,DTV03703,093304005029,Công đoàn viên,Nhân viên tư vấn,,25/10/2004,Kinh,Tỉnh Hậu Giang,,12/12,Cao đẳng,,,ngtyennhi04@gmail.com,0798039704,MN_DTV_Inbound
+80,Tống Thị Mộng Thu,DTV03704,092196009568,Công đoàn viên,Nhân viên tư vấn,,16/06/1996,Kinh,Thành phố Cần Thơ,,12/12,Cao đẳng,,,thutong969696@gmail.com,0703497640,MN_DTV_Inbound
+81,Trần Hội,DTV00434,092090011849,Công đoàn viên,Nhân viên tư vấn,27/08/1990,,Kinh,Thành phố Cần Thơ,,12/12,Đại học,,,tranhoi8990@gmail.com,0763807518,MN_DTV_Inbound
+82,Nguyễn Lê Diễm Thúy,DTV03705,086302008652,Công đoàn viên,Nhân viên tư vấn,,31/01/2002,Kinh,Tỉnh Vĩnh Long,,12/12,Trung cấp,,,dthuynguyen18@gmail.com,0973930759,MN_DTV_Inbound
+83,Châu Hoàng Xa,DTV00321,093088009576,UV BCH CĐCS,Nhân viên tư vấn,20/08/1988,,Kinh,Hậu Giang,,12/12,Trung cấp,,,xach@mobifoneservice.com.vn,909383337,MN_DTV_Inbound
+84,Trần Quốc Thái,DTV01399,093093005178,Tổ trưởng CĐ,Nhân viên tư vấn,10/10/1993,,Kinh,Cần Thơ,,12/12,Đại Học,,,thaitq.ctv@gmail.com,939900386,MN_DTV_Inbound
+85,Đao Quốc Việt,DTV00340,092087000848,Công đoàn viên,Nhân viên tư vấn,01/05/1987,,Kinh,Cần Thơ,,12/12,Đại học,,,vietdq@mobifoneserviec.com.vn,939906000,MN_DTV_Inbound
+86,Quách Hán Văn,DTV00335,093084012567,Tổ trưởng CĐ,Nhân viên tư vấn,18/11/1984,,Kinh,Hậu Giang,,12/12,Đại học,,,vanqh@mobifoneservice.com.vn,788999887,MN_DTV_Inbound
+87,Lê Huỳnh Như,DTV00450,095192007237,Công đoàn viên,Nhân viên tư vấn,,23/05/1992,Kinh,Bạc Liêu,,12/12,Đại Học,,,nhulh.ctv@mobifoneservice.com.vn,907590792,MN_DTV_Inbound
+88,Nguyễn Văn Kiệt,DTV02132,093095005667,Công đoàn viên,Nhân viên tư vấn,05/12/1995,,Kinh,Hậu Giang,,12/12,Trung cấp,,,kietnv.ctv@mobifoneservice.com.vn,907084560,MN_DTV_Inbound
+89,Cao Thị Mỹ Diện,DTV00421,093193010470,Tổ trưởng CĐ,Nhân viên tư vấn,,28/02/1993,Kinh,Hậu Giang,,12/12,Trung cấp,,,dienctm@mobifoneservice.com.vn;,932999722,MN_DTV_Inbound
+90,Lê Hoàng Nghiêm,DTV00341,086084016129 ,Công đoàn viên,Nhân viên tư vấn,15/06/1984,,Kinh,Vĩnh Long,,12/12,Cao đẳng,,,nghiemlh.ctv@mobifoneservice.com.vn,907303707,MN_DTV_Inbound
+91,Trần Lê Đạt,DTV00419,079090001725,Tổ trưởng CĐ,Nhân viên tư vấn,25/11/1990,,Hoa,Cần Thơ,,12/12,Cao đẳng,,,dattl@mobifoneservice.com.vn,939997204,MN_DTV_Inbound
+92,Bùi Minh Thương,DTV02158,087095008058,Công đoàn viên,Nhân viên tư vấn,28/05/1995,,Kinh,đồng tháp,,12/12,Đại học,,,thuongmminhbui@gmail.com,703514761,MN_DTV_Inbound
+93,Nguyễn Bé Khuyên,DTV01106,095194005935,Công đoàn viên,Nhân viên tư vấn,,01/01/1994,Kinh,Bạc Liêu,,12/12,Đại học,,,nguyenbekhuyen1994@gmail.com,776377079,MN_DTV_Inbound
+94,Lê Hồng Đào,DTV00331,087186018356,Công đoàn viên,Nhân viên tư vấn,,01/01/1986,Kinh,Đồng Tháp,,12/12,Trung cấp,,,daolh.mobifoneservice@gmail.com,932895989,MN_DTV_Inbound
+95,Hồ Thị Thủy Tiên,DTV00403,093190004776,Công đoàn viên,Nhân viên tư vấn,,03/11/1990,Kinh,Hậu Giang,,12/12,Đại học,,,tienhtt.mfscto@gmail.com,778044441,MN_DTV_Inbound
+96,Huỳnh Thảo Vi,DTV02366,096198007142,Công đoàn viên,Nhân viên tư vấn,,21/02/1998,Kinh,Cà Mau,,12/12,Đại học,,,huynhthaovi2102@gmail.com,936879435,MN_DTV_Inbound
+97,Nguyễn Thúy Vi,DTV02192,096195009286,Công đoàn viên,Nhân viên tư vấn,,15/06/1995,Kinh,Cà Mau,,12/12,Đại học,,,thuyvinguyen1506@gmail.com,798711506,MN_DTV_Inbound
+98,Phạ Thị Thanh Trúc,DTV00376,092192010292,Công đoàn viên,Nhân viên tư vấn,,03/06/1992,Kinh,Cần Thơ,,12/12,Trung cấp,,,trucpham03061992@gmail.com,939177830,MN_DTV_Inbound
+99,Dương Huỳnh Duy,DTV00412,093191001835,Công đoàn viên,Nhân viên tư vấn,,15/03/1991,Kinh,Hậu Giang,,12/12,Đại học,,,duonghuynhduy.lm@gmail.com,907015658,MN_DTV_Inbound
+100,Nguyễn Thị Hồng Loan,DTV01090,086192002845,Công đoàn viên,Nhân viên tư vấn,,15/06/1992,Kinh,Vĩnh Long,,12/12,Đại học,,,nguyenthihongloan1506@gmail.com,778142672,MN_DTV_Inbound
+101,Phạm Thị Ngọc Liên,DTV02156,091195016355,Công đoàn viên,Nhân viên tư vấn,,28/10/1995,Kinh,Kiên Giang,,12/12,Đại học,,,ngoclienpham95@gmail.com,766780499,MN_DTV_Inbound
+102,Nguyễn Hoàng Anh Thư,DTV00384,092190004650,Công đoàn viên,Nhân viên tư vấn,,06/05/1990,Kinh,Cần Thơ,,12/12,Trung cấp,,,ng.hoang.anhthu90@gmail.com,908073883,MN_DTV_Inbound
+103,Nguyễn Minh Cảnh,DTV02364,093096000426,Công đoàn viên,Nhân viên tư vấn,02/01/1996,,Kinh,Hậu Giang,,12/12,Đại học,,,chuoicanh2196@gmail.com,907844317,MN_DTV_Inbound
+104,Nguyễn Hoàng Vy,DTV02806,087095015179,Công đoàn viên,Nhân viên tư vấn,18/02/1995,,Kinh,Đồng Tháp,12/04/2019,12/12,Cao đẳng,,,nguyenhoangvy182@gmail.com,767986949,MN_DTV_Inbound
+105,Lê Thị Kim Anh,DTV00367,086189004506,Công đoàn viên,Nhân viên tư vấn,,19/05/1989,Kinh,Vĩnh Long,,12/12,Trung cấp,,,lkimanh1905@gmail.com,938308860,MN_DTV_Inbound
+106,Trần Ngọc Đẹp,DTV00444,095190003520,Công đoàn viên,Nhân viên tư vấn,,19/06/1990,Kinh,Bạc Liêu,,12/12,Đại học,,,Tnd090890@gmail.com,793001358,MN_DTV_Inbound
+107,Phạm Thị Bích Thu,DTV00491,086191000776,Công đoàn viên,Nhân viên tư vấn,,30/06/1991,Kinh,Vĩnh Long,,12/12,Đại học,,,phamthuktd@gmail.com,907669675,MN_DTV_Inbound
+108,Nguyễn Thị Kim Lý,DTV02152,087194017423,Công đoàn viên,Nhân viên tư vấn,,08/05/1994,Kinh,Đồng Tháp,,12/12,Đại học,,,nguyenthikimly.dongthap@gmail.com,902640805,MN_DTV_Inbound
+109,Phạm Thị Yến,DTV02814,091198011289,Công đoàn viên,Nhân viên tư vấn thai sản,,29/08/1998,Kinh,Kiên Giang,,12/12,Đại học,,,yenpham.290898@gmail.com,777634854,MN_DTV_Inbound
+110,Nguyễn Hồ Như Phượng,DTV02892,092300000990,Công đoàn viên,Nhân viên tư vấn,,28/03/2000,Kinh, Cần Thơ,,12/12,Đại học,,,nguyenphuongnkct@gmail.com,907463570,MN_DTV_Inbound
+111,Trần Phú Triệu,DTV02908,093200005815,Công đoàn viên,Nhân viên tư vấn,25/02/2000,,Kinh, Hậu Giang,,12/12,Đại học,,,tranphutrieu1648@gmail.com,762978962,MN_DTV_Inbound
+112,Nguyễn Thị Bích Trân,DTV03120,086199006701,Công đoàn viên,Nhân viên tư vấn,,03/11/1999,Kinh, Vĩnh Long,,12/12,Đại học,,,nguyenthibichtran.0311@gmail.com,786690311,MN_DTV_Inbound
+113,Nguyễn Đình Lưỡng Nghi,DTV00405,092088001105,Công đoàn viên,Nhân viên tư vấn,16/09/1988,,Kinh,Cần Thơ,,12/12,Đại học,,,Nghindl.mobifoneservice@gmail.com,932802121,MN_DTV_Inbound
+114,Nguyễn Hiểu Linh,DTV01391,092192001684,Công đoàn viên,Nhân viên tư vấn,,09/01/1992,Kinh,Cần Thơ,,12/12,Cao Đẳng,,,Hieulinh091292@gmail.com,901285199,MN_DTV_Inbound
+115,Nguyễn Ngọc Danh,DTV02140,086095011595,Công đoàn viên,Nhân viên tư vấn,15/07/1995,,Kinh,Vĩnh Long,,12/12,Đại học,,,danhngoc157@gmail.com,765696506,MN_DTV_Inbound
+116,Cao Thị Loan,DTV02218,092198003120,Công đoàn viên,Nhân viên tư vấn,,09/11/1998,Kinh,Cần Thơ,,12/12,Đại học,,,Minjester98@gmail.com,792771811,MN_DTV_Inbound
+117,Trần Thị Mai Trúc,DTV02220,086197003777,Công đoàn viên,Nhân viên tư vấn,,29/11/1997,Kinh,Vĩnh Long,,12/12,Đại học,,,maitruc0797@gmail.com,774144095,MN_DTV_Inbound
+118,Võ Tuyết Hoa,DTV02594,092199002240,Công đoàn viên,Nhân viên tư vấn,,17/03/1999,Kinh,Cần Thơ,,12/12,Đại học,,,votuyethoa17031999@gmail.com,789595788,MN_DTV_Inbound
+119,Trương Thị Bé Ty,DTV02736,092196006011,Công đoàn viên,Nhân viên tư vấn,,31/10/1996,Kinh,Hậu Giang,,12/12,Cao đẳng,,,truongtyct1996@gmail.com,772735124,MN_DTV_Inbound
+120,Huỳnh Kim Yến,DTV02896,093191009145,Công đoàn viên,Nhân viên tư vấn,,05/11/1991,Kinh, Hậu Giang,,12/12,Đại học,,,Huynhkimyen3010@gmail.com,907517200,MN_DTV_Inbound
+121,Phan Hồng Trinh,DTV00371,094188009608,Công đoàn viên,Nhân viên tư vấn,,09/09/1988,Kinh,Sóc Trăng ,,12/12,Cao đẳng,,,6737.mbt@gmail.com,939981099,MN_DTV_Inbound
+122,Trần Khánh Linh,DTV02702,089196007700,Công đoàn viên,Nhân viên tư vấn,,08/11/1996,Kinh,Tỉnh An Giang,,12/12,Đại học,,,shusuke294@gmail.com,702821435,MN_DTV_Inbound
+123,Nguyễn Xuân Nghĩa,DTV03213,094201000369,Công đoàn viên,Nhân viên tư vấn,,09/01/2001,Kinh,Tỉnh Sóc Trăng,,12/12,Đại học,,,nguyenxnghia0901@gmail.com,909151308,MN_DTV_Inbound
+124,Nguyễn Thị Mỹ Nương,DTV00351,093190000733,Công đoàn viên,Nhân viên tư vấn,,03/01/1990,Kinh,Hậu Giang,,12/12,Đại học,,,nguyennuong.nt@gmail.com,767051052,MN_DTV_Inbound
+125,Phạm Thị Diễm Trinh,DTV02489,092198003249,Công đoàn viên,Nhân viên tư vấn,,22/11/1998,Kinh,Cần Thơ,,12/12,Đại học,,,diemtrinh2211@gmail.com,777839450,MN_DTV_Inbound
+126,Trần Thị Ngọc Huệ,DTV02735,086300003295,Công đoàn viên,Nhân viên tư vấn,,09/01/2000,Kinh,Vĩnh Long,,12/12,Đại học,,,ttnhue2000@gmail.com,772857732,MN_DTV_Inbound
+127,Phạm Thanh Thùy,DTV00391,092190002693,Công đoàn viên,Nhân viên tư vấn,,11/09/1990,Kinh,CA.Cần Thơ,,12/12,Đại học,,,thpham899@gmail.com,901073470,MN_DTV_Inbound
+128,Trần Như Ý,DTV01098,093194003090,Công đoàn viên,Nhân viên tư vấn,,14/03/1994,Kinh,Hậu Giang,,12/12,Đại học,,,Trannhuy1403@gmail.com,931065751,MN_DTV_Inbound
+129,Nguyễn Thị Kim Phụng,DTV02147,086193009193,Công đoàn viên,Nhân viên tư vấn,,01/01/1993,Kinh,Vĩnh Long,,12/12,Đại học,,,phungntk.mobifoneservice@gmail.com,704926991,MN_DTV_Inbound
+130,Phạm Thị Mỹ Khanh,DTV02166,093192010286,Công đoàn viên,Nhân viên tư vấn,,27/01/1992,Kinh,Hậu Giang,,12/12,Đại học,,,ptmkhanh27@gmail.com,939128329,MN_DTV_Inbound
+131,Nguyễn Thị Yến Oanh,DTV02196,093198001089 ,Công đoàn viên,Nhân viên tư vấn,,17/11/1998,Kinh,Cần Thơ,,12/12,Đại học,,,yenoanh171198@gmail.com,792253112,MN_DTV_Inbound
+132,Nguyễn Tường Oanh,DTV02479,089198013822,Công đoàn viên,Nhân viên tư vấn,,23/05/1998,Kinh,An Giang,,12/12,Đại học,,,nguyentuongoanh170898@gmail.com,776412610,MN_DTV_Inbound
+133,Phan Thị Kim Thoa,DTV02528,093199003628,Công đoàn viên,Nhân viên tư vấn,,23/04/1999,Kinh,Cần Thơ,,12/12,Đại học,,,thoaphan.23041999@gmail.com,704741290,MN_DTV_Inbound
+134,Võ Hoàng Hảo,DTV02792,094200013153,Công đoàn viên,Nhân viên tư vấn,19/06/2000,,Kinh,Sóc Trăng,,12/12,Cao đẳng,,,Haovo1200@gmail.com,765928694,MN_DTV_Inbound
+135,Đoàn Hồ Mỹ Ngọc,DTV01125,092194010929,Công đoàn viên,Nhân viên tư vấn,,19/08/1994,Kinh,Cần Thơ,,12/12,Đại học,,,Vikkota94@gmail.com,907704654,MN_DTV_Inbound
+136,Lê Thị Tú Huỳnh,DTV00401,093190007211,Công đoàn viên,Nhân viên tư vấn,,17/03/1990,Kinh,Hậu Giang,,12/12,Đại học,,,lttuhuynh@gmail.com,931779766,MN_DTV_Inbound
+137,Thạch Thảo,DTV02977,092197005227,Công đoàn viên,Nhân viên tư vấn,,27/02/1997,Khmer,Cần Thơ,,12/12,Cao đẳng,,,thachthao27021997@gmail.com,782992983,MN_DTV_Inbound
+138,Kha Ngọc Hảo,DTV02593,092199002219,Công đoàn viên,Nhân viên tư vấn,,19/04/1999,Kinh,Cần Thơ,,12/12,Đại học,,,khangochao.194@gmail.com,774804856,MN_DTV_Inbound
+139,Lê Xuân Bòng,DTV02980,093300009888,Công đoàn viên,Nhân viên tư vấn,,14/10/2000,Kinh,Cần Thơ,,12/12,Cao đẳng,,,Ble47994@gmail.com,702974145,MN_DTV_Inbound
+140,Nguyễn Kim Tuyền,DTV02982,096194007830,Công đoàn viên,Nhân viên tư vấn,,01/01/1994,Kinh,Cà Mau,,12/12,Đại học,,,kimtuyen.dxx@gmail.com,933927834,MN_DTV_Inbound
+141,Phạm Thị Như Huỳnh,DTV03218,092301007427,Công đoàn viên,Nhân viên tư vấn,,24/09/2001,Kinh,Thành phố Cần Thơ,,12/12,Đại học,,,nhuhuynhhh240901@gmail.com,788749055,MN_DTV_Inbound
+142,Võ Thị Mỹ Duyên,DTV03296,092194009607,Công đoàn viên,Nhân viên tư vấn,,02/02/1994,Kinh,Thành phố Cần Thơ,,12/12,Đại học,,,,0939895904,MN_DTV_Inbound
+143,Nguyễn Minh Khoa,DTV02900,092197003629,Công đoàn viên,Nhân viên tư vấn,,21/12/1997,Kinh, Cần Thơ,,12/12,Cao đẳng,,,minhkhoa21121997@gmail.com,779811880,MN_DTV_Inbound
+144,Trần Thị Ngọc Tú,DTV00427,093189001707,Công đoàn viên,Nhân viên tư vấn,,11/12/1989,Kinh,Hậu Giang,,12/12,Trung cấp,,,traunghe2206@gmail.com,767944040,MN_DTV_Inbound
+145,Trịnh Thị Thùy Linh,DTV00621,095186009451,Công đoàn viên,Nhân viên tư vấn,,01/10/1986,Kinh,Bạc Liêu,,12/12,Trung Cấp,,,trinhthithuylinh0797@gmail.com,939480797,MN_DTV_Inbound
+146,Trầm Thị Mỹ Lình,DTV00532,093193011382,Công đoàn viên,Nhân viên tư vấn,,21/07/1993,Kinh,Cần Thơ,,12/12,Đại học,,,linhttm.mfscto@gmail.com,704567656,MN_DTV_Inbound
+147,Nguyễn Thị Bích Phượng,DTV01392,092193007326,Công đoàn viên,Nhân viên tư vấn,,20/09/1993,Kinh,Cần Thơ,,12/12,Đại học,,,phuong200993@gmail.com,939163984,MN_DTV_Inbound
+148,Nguyễn Thị Hồng Nhung,DTV02373,093197005415,Công đoàn viên,Nhân viên tư vấn,,25/09/1997,Kinh,Cần Thơ,,12/12,Đại học,,,Hongnhungnguyen0997@gmail.com,772107505,MN_DTV_Inbound
+149,Nguyễn Thị Phi Yến,DTV02531,092198003280,Công đoàn viên,Nhân viên tư vấn,,19/07/1998,Kinh,Cần Thơ,,12/12,Đại học,,,ntpyen8398@gmail.com,778178283,MN_DTV_Inbound
+150,Tạ Thị Kim Oanh,DTV00508,092190007825,Công đoàn viên,Nhân viên tư vấn,,29/05/1990,Kinh,Kiên Giang,,12/12,Đại học,,,taoanh90kg@gmail.com,907288876,MN_DTV_Inbound
+151,Nguyễn Hồng Thắm,DTV02964,086192012439,Công đoàn viên,Nhân viên tư vấn,,09/05/1992,Kinh,Vĩnh Long,,12/12,Đại học,,,thamnguyen619@gmail.com,706429169,MN_DTV_Inbound
+152,Lâm Thị Ánh Phượng,DTV03095,092196001691,Công đoàn viên,Nhân viên tư vấn,,27/10/1996,Kinh, Cần Thơ,,12/12,Cao đẳng,,,anhphuong1096@gmail.com,768260789,MN_DTV_Inbound
+153,Trang Thảo Trang,DTV00558,093191006235,Công đoàn viên,Nhân viên tư vấn,,15/11/1991,Khmer,Hậu Giang,,12/12,Cao đẳng,,,trangtthg@gmail.com,798871519,MN_DTV_Inbound
+154,Trần Thị Kiều Oanh,DTV00329,094192011199,Công đoàn viên,Nhân viên tư vấn,,02/11/1992,Kinh,Sóc Trăng,,12/12,Đại học,,,oanhttk@mobifoneservice.com.vn,939695992,MN_DTV_Inbound
+155,Phạm Minh Huệ,DTV03421,092302001070,Công đoàn viên,Nhân viên tư vấn,,26/10/2002,Kinh,Cần Thơ,,12/12,Đại học,,,phminhhue02@gmail.com,0909518744,MN_DTV_Inbound
+156,Phùng Thị Mỹ Uyên,DTV03422,092302007321,Công đoàn viên,Nhân viên tư vấn,,20/09/2002,Kinh,Cần Thơ,,12/12,Đại học,,,ptmuyen23@gmail.com,0765250384,MN_DTV_Inbound
+157,Lê Tường Vy,DTV03453,096302003930,Công đoàn viên,Nhân viên tư vấn,,28/11/2002,Kinh, Cà Mau,,12/12,Đại học,,,Tgvy2811@gmail.com,0813526852,MN_DTV_Inbound
+158,Mai Duyên Ngọc,DTV03454,096303000670,Công đoàn viên,Nhân viên tư vấn,,21/12/2003,Kinh, Cà Mau,,12/12,Đại học,,,maiduyenngoc2103@gmail.com,0949731736,MN_DTV_Inbound
+159,Trần Thị Trúc Ly,DTV03451,089193025250,Công đoàn viên,Nhân viên tư vấn,,23/10/1993,Kinh, An Giang,,12/12,Đại học,,,lytran2310@gmail.com,0901059785,MN_DTV_Inbound
+160,Nguyễn Thị Thuý An,DTV03492,084300006533,Công đoàn viên,Nhân viên tư vấn,,28/03/2000,Kinh,Trà Vinh,,12/12,Đại học,,,nttan2503@gmail.com,0362057384,MN_DTV_Inbound
+161,Trần Công Minh,DTV02419,087097007676,Công đoàn viên,Nhân viên tư vấn,09/10/1997,,Kinh,Tỉnh Đồng Tháp,,12/12,Đại học,,,tcm09101997@gmail.com,0938926849,MN_DTV_Inbound
+162,Lương Thị Thúy Anh,DTV00456,092192012781 ,Công đoàn viên,Nhân viên tư vấn,,26/03/1992,Kinh,Cần Thơ,,12/12,Đại học,,,ltthuyanh@gmail.com,939260392,MN_DTV_Inbound
+163,Huỳnh Thúy Kiều,DTV03795,093304006526,Công đoàn viên,Nhân viên tư vấn,,08/11/2004,Kinh,Thành phố Cần Thơ,,12/12,Cao Đẳng,,,huynhthuykieu0811@gmail.com,0328828570,MN_DTV_Inbound
+164,Lý Tấn Ngọc,DTV03796,092200003734,Công đoàn viên,Nhân viên tư vấn,16/12/2000,,Hoa,Thành phố Cần Thơ,,12/12,Đại học,,,marionail161200@gmail.com,0919599595,MN_DTV_Inbound
+165,Trần Thành Công,DTV03799,092202007731,Công đoàn viên,Nhân viên tư vấn,13/10/2002,,Kinh,Cần Thơ,,12/12,Đại học,,,Cong13503@gmail.com,0939623269,MN_DTV_Inbound
+166,Thái Tú Ngọc,DTV03859,091302003657,Công đoàn viên,Nhân viên tư vấn,,26/12/2002,Kinh,Tỉnh An Giang,,12/12,Đại học,,,thaitungoc2002@gmail.com,0777025998,MN_DTV_Inbound
+167,Trương Hồng Nhân,DTV03860,094201012797,Công đoàn viên,Nhân viên tư vấn,24/09/2001,,Kinh,Thành phố Cần Thơ,,12/12,Đại học,,,honghnhandc@gmail.com,0939358564,MN_DTV_Inbound
+168,Nguyễn Huỳnh Nhứt Nam,DTV03856,092205001750,Công đoàn viên,Nhân viên tư vấn,21/09/2005,,Kinh,Thành phố Cần Thơ,,12/12,Cao đẳng,,,nguyenthanhtt134@gmail.com,0704770073,MN_DTV_Inbound
+169,Phạm Thị Mỹ Duyên,DTV03883,093301004094,Công đoàn viên,Nhân viên tư vấn,,22/03/2001,Kinh,Thành phố Cần Thơ,,12/12,Cao đẳng,,,myduyen7858@gmail.com,0328167858,MN_DTV_Inbound
+170,Huỳnh Thị Bích Kiểu,DTV03882,093193010536,Công đoàn viên,Nhân viên tư vấn,,14/06/1993,Kinh,Thành phố Cần Thơ,,12/12,Trung cấp,,,bichkieu689@gmail.com,0904989146,MN_DTV_Inbound
+171,Trần Nhật Minh,DTV03880,086200003964,Công đoàn viên,Nhân viên tư vấn,18/11/2000,,Kinh,Tỉnh Vĩnh Long,,12/12,Đại học,,,tnhatminh123@gmail.com,0336366031,MN_DTV_Inbound
+172,Nghê Châu Ngọc,DTV03885,092301007257,Công đoàn viên,Nhân viên tư vấn,,04/01/2001,Kinh,Thành phố Cần Thơ,,12/12,Đại học,,,nghechaungoc01@gmail.com,0788758841,MN_DTV_Inbound
+173,Lê Hữu Nhân,DTV03889,086202000408,Công đoàn viên,Nhân viên tư vấn,15/11/2002,,Kinh,Tỉnh Vĩnh Long,,12/12,Đại học,,,chanhthuan1848@gmail.com,0931691397,MN_DTV_Inbound
+174,Huỳnh Tấn Phát,DTV03878,086203001574,Công đoàn viên,Nhân viên tư vấn,11/07/2003,,Kinh,Tỉnh Vĩnh Long,,12/12,Đại học,,,tanphat110703@gmail.com,0397112699,MN_DTV_Inbound
+175,Trần Tuấn Kiệt,DTV02855,079091024137,Công đoàn viên,Nhân viên tư vấn,02/07/1991,,Kinh,TP Hồ Chí Minh,,12/12,Trung học phổ thông,,,inmail0910@gmail.com,0799770910,MN_DTV_Inbound
+176,Tăng Gia Vinh,DTV00152,079090031262,Công đoàn viên,Nhân viên tư vấn,07/01/1990,,Kinh,TP Hồ Chí Minh,,12/12,Trung học phổ thông,,,tanggiavinh168@gmail.com,0899686173,MN_DTV_Inbound
+177,Trần Thị Triều Giang,DTV02291,079186024942,Công đoàn viên,Nhân viên tư vấn,,02/01/1986,Kinh,TP Hồ Chí Minh,,12/12,THPT,,,trieugiang998@gmail.com,0938425251,MN_DTV_Inbound
+178,Trần Quân Lực,DTV00991,036093002377,Công đoàn viên,Nhân viên tư vấn,26/10/1993,,Kinh,Nam Định,,12/12,Cao đẳng,,,tranluc.mobifone@gmail.com,0938881794,MN_DTV_Inbound
+179,Trịnh Thị Huế Anh,DTV01915,083300011257,Công đoàn viên,Nhân viên tư vấn,,09/08/2000,Kinh,Bến Tre,,12/12,Trung học phổ thông,,,anh.trinhhue08@gmail.com,0932116602,MN_DTV_Inbound
+180,Thiêu Thu Hà,DTV02286,079186026415,Công đoàn viên,Nhân viên tư vấn,,22/01/1986,Kinh,Trung Quốc,,12/12,Trung học phổ thông,,,kenbi119@gmail.com,081.6577747,MN_DTV_Inbound
+181,Trần Thị Thu Thảo,DTV02292,060190013501,Công đoàn viên,Nhân viên tư vấn,,21/08/1990,Kinh,Bình Thuận,,12/12,Trung cấp,,,tranthao2790@gmail.com,0908981252,MN_DTV_Inbound
+182,Nguyễn Tiến Sĩ,DTV02322,089095000990,Công đoàn viên,Nhân viên tư vấn,11/10/1995,,Kinh,An Giang,,12/12,Trung học phổ thông,,,nguyensi088@gmail.com,0915224463,MN_DTV_Inbound
+183,Nguyễn Thanh Long,DTV02850,087097002245,Công đoàn viên,Nhân viên tư vấn,20/01/1997,,Kinh,Đồng Tháp,,12/12,Trung cấp,,,backlove999@gmail.com,0788539718,MN_DTV_Inbound
+184,Trần Trung Nhân,DTV02401,079099039164,Công đoàn viên,Nhân viên tư vấn,27/07/1999,,Kinh,TP Hồ Chí Minh,,12/12,Trung học phổ thông,,,trantrungnhan159@gmail.com,0909608665,MN_DTV_Inbound
+185,Lương Ngọc Liên,DTV02545,079190018352,Công đoàn viên,Nhân viên tư vấn,,18/07/1990,Kinh,TP Hồ Chí Minh,,12/12,Trung cấp,,,luongoclien@gmail.com,0969821790,MN_DTV_Inbound
+186,Nguyễn Thị Bích Ngọc,DTV00177,060190005397,Công đoàn viên,Nhân viên tư vấn,,18/01/1990,Kinh,Bình Thuận,,12/12,Cao đẳng,,,ngoc.mf89@gmail.com,0931821471,MN_DTV_Inbound
+187,Lê Thị Cẩm Tú,DTV02310,096197007965,Công đoàn viên,Nhân viên tư vấn thai sản,,19/05/1997,Kinh,Cà Mau,,12/12,Trung học phổ thông,,,lethicamtu19051997@gmail.com,0818942738,MN_DTV_Inbound
+188,Trần Hữu Thiện,DTV02676,079090016699,Công đoàn viên,Nhân viên tư vấn,24/02/1990,,Kinh,TP Hồ Chí Minh,,12/12,Đại học,,,tranhuuthien242@gmail.com,0901190034,MN_DTV_Inbound
+189,Nguyễn Thị Liền,DTV00133,095190000061,Công đoàn viên,Nhân viên tư vấn,,25/09/1990,Kinh,Bạc Liêu,,12/12,Cao đẳng,,,liennguyen250907@gmail.com,0937418533,MN_DTV_Inbound
+190,Trần Thị Thủy Tiên,DTV02712,079192016881,Công đoàn viên,Nhân viên tư vấn,,07/09/1992,Kinh,TP Hồ Chí Minh,,12/12,Trung học phổ thông,,,thuytientran070992@gmail.com,0932611106,MN_DTV_Inbound
+191,Trần Minh Sơn,DTV02767,079097002445,Công đoàn viên,Nhân viên tư vấn,17/09/1997,,Kinh,TP Hồ Chí Minh,,12/12,Trung học phổ thông,,,sontran170997@gmail.com,0777891709,MN_DTV_Inbound
+192,Trần Thị Hiền Trang,DTV02832,054300006081,Công đoàn viên,Nhân viên tư vấn,,09/06/2000,Kinh,Phú Yên,,12/12,Cao đẳng,,,changchang.09062000@gmail.com,0383045967,MN_DTV_Inbound
+193,Huỳnh Trọng Nhân,DTV01969,066093011183,Công đoàn viên,Nhân viên tư vấn,12/01/1993,,Kinh,Bến Tre,,12/12,Trung học phổ thông,,,trongnhan499@gmail.com,0703451369,MN_DTV_Inbound
+194,Nguyễn Thành Lâm,DTV02857,082092012716,Công đoàn viên,Nhân viên tư vấn,21/05/1992,,Kinh,Tiền Giang,,12/12,Cao Đẳng,,,thanhlam210592@gmail.com,0796659674,MN_DTV_Inbound
+195,Nguyễn Thị Ngọc Loan,DTV02871,082191017526,Công đoàn viên,Nhân viên tư vấn,,06/11/1991,Kinh,Tiền Giang,,12/12,Trung học phổ thông,,,loannguyen0611@gmail.com,0389866158,MN_DTV_Inbound
+196,Đặng Đoàn Việt Quang,DTV02878,051099004811,Công đoàn viên,Nhân viên tư vấn,03/08/1999,,Kinh,Quảng Ngãi,,12/12,Cao đẳng,,,dangquang770@gmail.com,0346111321,MN_DTV_Inbound
+197,Nguyễn Thị Vân Anh,DTV02872,042189018642,Công đoàn viên,Nhân viên tư vấn,,20/03/1989,Kinh,Hà Tĩnh,,12/12,Trung cấp,,,nguyenthivananh2372@gmail.com,0783155579,MN_DTV_Inbound
+198,Nguyễn Thị Kim Chung,DTV02873,080194004887,Công đoàn viên,Nhân viên tư vấn,,07/05/1994,Kinh,Long An,,12/12,Cao đẳng,,,kimchung754@gmail.com,0901326640,MN_DTV_Inbound
+199,Nguyễn Thị Kim Dung,DTV02881,083190003637,Công đoàn viên,Nhân viên tư vấn,,10/05/1990,Kinh,Lâm Đồng,,12/12,Cao đẳng,,,dungntk10051990@gmail.com,0934072984,MN_DTV_Inbound
+200,Trần Thị Ngọc Hân,DTV02862,083300009079,Công đoàn viên,Nhân viên tư vấn,,23/11/2000,Kinh,Bến Tre,,12/12,Trung học phổ thông,,,Ngochanq2311@gmail.com,0586109427,MN_DTV_Inbound
