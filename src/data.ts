@@ -177,47 +177,47 @@ export const INITIAL_USERS: User[] = [
   {
     id: 'user_1',
     email: 'huongns@mobifoneservice.com.vn',
-    fullName: 'HươngNS',
+    fullName: 'Nguyễn Sông Hương',
     role: 'ADMIN_SUPER',
     branch: 'All',
     avatarUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150',
-    employeeCode: 'MFS001'
+    employeeCode: 'MFS00382'
   },
   {
     id: 'user_2',
-    email: 'admin.hanoi@mobifoneservice.com.vn',
+    email: 'hungnv@mobifoneservice.com.vn',
     fullName: 'Nguyễn Văn Hùng',
     role: 'ADMIN_BRANCH',
     branch: 'Chi nhánh miền Bắc',
     avatarUrl: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150',
-    employeeCode: 'MFS042'
+    employeeCode: 'UC00586'
   },
   {
     id: 'user_3',
-    email: 'admin.miennam@mobifoneservice.com.vn',
-    fullName: 'Lê Thị Thu Thủy',
+    email: 'phuoctth@mobifoneservice.com.vn',
+    fullName: 'Tô Thị Hồng Phước',
     role: 'ADMIN_BRANCH',
     branch: 'Chi nhánh miền Nam',
     avatarUrl: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150',
-    employeeCode: 'MFS103'
+    employeeCode: 'MFS00125'
   },
   {
     id: 'user_4',
-    email: 'doanvien.lam@mobifoneservice.com.vn',
-    fullName: 'Trần Thanh Lâm',
+    email: 'lamtt@mobifoneservice.com.vn',
+    fullName: 'Trần Tiến Lâm',
     role: 'MEMBER',
     branch: 'Chi nhánh miền Bắc',
     avatarUrl: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150',
-    employeeCode: 'MFS312'
+    employeeCode: 'MFS00296'
   },
   {
     id: 'user_5',
-    email: 'doanvien.vy@mobifoneservice.com.vn',
-    fullName: 'Phạm Khánh Vy',
+    email: 'nguyenhoangvy182@gmail.com',
+    fullName: 'Nguyễn Hoàng Vy',
     role: 'MEMBER',
     branch: 'Chi nhánh miền Nam',
     avatarUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150',
-    employeeCode: 'MFS789'
+    employeeCode: 'DTV02806'
   }
 ];
 
@@ -2930,12 +2930,12 @@ export const INITIAL_NEWS: NewsPost[] = [
   {
     id: 'news_1',
     title: 'Khen thưởng tập thể, cá nhân có thành tích xuất sắc trong Chiến dịch Phát triển Số Q1.2026',
-    content: `Ban chấp hành Công đoàn Công ty CP Dịch vụ Kỹ thuật Mobifone xin gửi thông báo biểu dương các chi đoàn cơ sở đã tích cực hoàn thành xuất sắc các chỉ tiêu công nghệ và kinh doanh trong Quý 1 năm 2026.\n\nChi đoàn cơ sở phòng Công nghệ số dẫn đầu với dự án phát triển các sản phẩm "Đại hội số" và hệ thống "Union Connect". Trưởng Phòng HươngNS cùng toàn thể thành viên phòng Công nghệ số được Công đoàn Công ty ghi danh khen thưởng, trao tặng kỷ niệm chương vì đóng góp đẩy mạnh Chuyển đổi số của tổ chức.\n\nChúc toàn thể đoàn viên giữ vững ngọn lửa nhiệt huyết, tiếp tục xung kích trong mọi hoạt động sản xuất kinh doanh!`,
+    content: `Ban chấp hành Công đoàn Công ty CP Dịch vụ Kỹ thuật Mobifone xin gửi thông báo biểu dương các chi đoàn cơ sở đã tích cực hoàn thành xuất sắc các chỉ tiêu công nghệ và kinh doanh trong Quý 1 năm 2026.\n\nChi đoàn cơ sở phòng Công nghệ số dẫn đầu với dự án phát triển các sản phẩm "Đại hội số" và hệ thống "Union Connect". Trưởng phòng Nguyễn Sông Hương cùng toàn thể thành viên phòng Công nghệ số được Công đoàn Công ty ghi danh khen thưởng, trao tặng kỷ niệm chương vì đóng góp đẩy mạnh Chuyển đổi số của tổ chức.\n\nChúc toàn thể đoàn viên giữ vững ngọn lửa nhiệt huyết, tiếp tục xung kích trong mọi hoạt động sản xuất kinh doanh!`,
     category: 'Thi đua - Khen thưởng',
     authorName: 'BCH Công đoàn Tổng',
     createdAt: '2026-05-28T08:30:00Z',
     likes: 24,
-    likedBy: ['admin.hanoi@mobifoneservice.com.vn', 'doanvien.lam@mobifoneservice.com.vn'],
+    likedBy: ['hungnv@mobifoneservice.com.vn', 'lamtt@mobifoneservice.com.vn'],
     attachments: [
       { name: 'Quyet_Dinh_Khen_Thuong_Q1_2026.pdf', size: '1.2 MB', url: '#' }
     ]
@@ -2948,7 +2948,7 @@ export const INITIAL_NEWS: NewsPost[] = [
     authorName: 'BCH Công đoàn Tổng',
     createdAt: '2026-05-25T14:15:00Z',
     likes: 42,
-    likedBy: ['huongns@mobifoneservice.com.vn', 'doanvien.vy@mobifoneservice.com.vn', 'admin.hanoi@mobifoneservice.com.vn'],
+    likedBy: ['huongns@mobifoneservice.com.vn', 'nguyenhoangvy182@gmail.com', 'hungnv@mobifoneservice.com.vn'],
     externalLink: 'https://mobifoneservice.com.vn/hoat-dong-noi-bo',
     attachments: [
       { name: 'The_Le_Giai_Chay_Run_2026.pdf', size: '840 KB', url: '#' },
@@ -2958,7 +2958,7 @@ export const INITIAL_NEWS: NewsPost[] = [
   {
     id: 'news_3',
     title: 'Kế hoạch học tập nghị quyết Công đoàn cấp trên và Chuyển đổi số doanh nghiệp 2026',
-    content: `Thực hiện kế hoạch bồi dưỡng kiến thức cho Đoàn viên Thanh niên và Lao động trẻ, BCH Công đoàn cơ sở ra văn bản chỉ đạo tổ chức buổi sinh hoạt chuyên đề:\n\n1. Học tập nghị quyết của Tổng Liên đoàn Lao động Việt Nam về Đổi mới hoạt động công đoàn.\n2. Ứng dụng AI nâng cao hiệu suất lao động cá nhân - Do Trưởng phòng HươngNS biên soạn và hướng dẫn.\n\nYêu cầu các Admin Chi nhánh lập danh sách đoàn viên tham gia trực tiếp và trực tuyến trước ngày 02/06/2026. Chương trình sẽ ghi nhận điểm thi đua cho từng chi nhánh cơ sở.`,
+    content: `Thực hiện kế hoạch bồi dưỡng kiến thức cho Đoàn viên Thanh niên và Lao động trẻ, BCH Công đoàn cơ sở ra văn bản chỉ đạo tổ chức buổi sinh hoạt chuyên đề:\n\n1. Học tập nghị quyết của Tổng Liên đoàn Lao động Việt Nam về Đổi mới hoạt động công đoàn.\n2. Ứng dụng AI nâng cao hiệu suất lao động cá nhân - Do Trưởng phòng Nguyễn Sông Hương biên soạn và hướng dẫn.\n\nYêu cầu các Admin Chi nhánh lập danh sách đoàn viên tham gia trực tiếp và trực tuyến trước ngày 02/06/2026. Chương trình sẽ ghi nhận điểm thi đua cho từng chi nhánh cơ sở.`,
     category: 'Tin tức học tập',
     authorName: 'BCH Công đoàn Tổng',
     createdAt: '2026-05-20T09:00:00Z',
@@ -2974,7 +2974,7 @@ export const INITIAL_COMMENTS: Comment[] = [
   {
     id: 'com_1',
     postId: 'news_1',
-    authorName: 'Trần Thanh Lâm',
+    authorName: 'Trần Tiến Lâm',
     authorRole: 'Đoàn viên MFS Hà Nội',
     authorAvatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150',
     content: 'Chúc mừng phòng Công nghệ số đứng đầu thi đua toàn đoàn ạ! Rất tự hào được đóng góp một phần nhỏ bé.',
@@ -2983,16 +2983,16 @@ export const INITIAL_COMMENTS: Comment[] = [
   {
     id: 'com_2',
     postId: 'news_1',
-    authorName: 'Lê Thị Thu Thủy',
+    authorName: 'Tô Thị Hồng Phước',
     authorRole: 'Admin MFS Miền Nam',
     authorAvatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150',
-    content: 'Chúc mừng chị HươngNS cùng toàn phòng! MFS Miền Nam sẽ bứt phá mạnh mẽ trong Quý 2 để cạnh tranh công bằng luôn nhé!',
+    content: 'Chúc mừng chị Nguyễn Sông Hương cùng toàn phòng! MFS Miền Nam sẽ bứt phá mạnh mẽ trong Quý 2 để cạnh tranh công bằng luôn nhé!',
     createdAt: '2026-05-28T10:30:00Z'
   },
   {
     id: 'com_3',
     postId: 'news_2',
-    authorName: 'Phạm Khánh Vy',
+    authorName: 'Nguyễn Hoàng Vy',
     authorRole: 'Đoàn viên MFS Miền Nam',
     authorAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150',
     content: 'Đã sẵn sàng giày chạy cho MobifoneService Run 2026! Vừa chạy khỏe vừa giúp đỡ các cháu nhỏ, giải đấu quá ý nghĩa luôn.',

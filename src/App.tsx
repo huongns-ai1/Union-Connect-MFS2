@@ -336,7 +336,7 @@ export default function App() {
             </div>
 
             <div className="border-t border-white/10 pt-4 flex flex-col items-center space-y-1 text-[10px] text-slate-400 text-center">
-              <span>Được xây dựng bởi: <strong>Trưởng phòng HươngNS & Phòng Công nghệ số</strong></span>
+              <span>Được xây dựng bởi: <strong>Trưởng phòng Nguyễn Sông Hương & Phòng Công nghệ số</strong></span>
               <span>© 2026 Công ty Cổ phần Dịch vụ Kỹ Thuật Mobifone (MobifoneService)</span>
             </div>
 
@@ -536,7 +536,7 @@ export default function App() {
             {/* Developer Card representation */}
             <div className="p-3 bg-white rounded-xl border border-slate-100 space-y-1">
               <span className="text-[10px] uppercase font-bold text-slate-400 block tracking-widest">Nhà phát triển (PRD)</span>
-              <strong className="text-xs font-bold text-slate-800 block">Trưởng phòng HươngNS</strong>
+              <strong className="text-xs font-bold text-slate-800 block">Trưởng phòng Nguyễn Sông Hương</strong>
               <span className="text-[10px] text-slate-55 bg-indigo-50 border border-indigo-100 text-indigo-700 px-1.5 py-0.2 rounded font-medium mt-0.5 inline-block">
                 Phòng Công nghệ số MFS
               </span>
