@@ -8,7 +8,7 @@ import { NORTH_MEMBERS } from './north_members';
 import { SOUTH_MEMBERS } from './south_members';
 
 export const BRANCHES = [
-  'Văn phòng tổng công ty MFS',
+  'Văn phòng Công ty MFS',
   'Chi nhánh miền Bắc',
   'Chi nhánh miền Trung',
   'Chi nhánh miền Nam'
@@ -27,7 +27,7 @@ export const DEPARTMENTS = [
 ];
 
 export const BRANCH_DEPARTMENTS: Record<string, string[]> = {
-  'Văn phòng tổng công ty MFS': [
+  'Văn phòng Công ty MFS': [
     'BAN TỔNG GIÁM ĐỐC',
     'P. TỔ CHỨC - HÀNH CHÍNH',
     'P. TÀI CHÍNH - KẾ TOÁN',
@@ -57,7 +57,7 @@ export function migrateBranchAndDept(rawBranch: string, rawDept: string): { bran
   const d = rawDept ? rawDept.trim() : '';
 
   // 1. Map Branch
-  let finalBranch = 'Văn phòng tổng công ty MFS';
+  let finalBranch = 'Văn phòng Công ty MFS';
   const cleanB = b.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d");
   const cleanD = d.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d");
 
@@ -68,7 +68,7 @@ export function migrateBranchAndDept(rawBranch: string, rawDept: string): { bran
   } else if (b === 'Chi nhánh miền Nam' || cleanB === 'chi nhanh mien nam' || b === 'MFS Chi nhánh Miền Nam') {
     finalBranch = 'Chi nhánh miền Nam';
   } else if (cleanB.includes('van phong') || cleanB.includes('tong cong ty') || cleanB.includes('vp tct') || cleanB.includes('vptct') || cleanB.includes('van phong tct') || cleanB === 'mfs') {
-    finalBranch = 'Văn phòng tổng công ty MFS';
+    finalBranch = 'Văn phòng Công ty MFS';
   } else if (cleanB.includes('ha noi') || cleanB.includes('mien bac') || cleanB.includes('bac') || cleanB.includes('hn')) {
     // Determine based on Department if it belongs to General Headquarters or Northern Branch
     if (cleanD.includes('giam doc') || cleanD.includes('tgd') || cleanD.includes('bgd') ||
@@ -77,7 +77,7 @@ export function migrateBranchAndDept(rawBranch: string, rawDept: string): { bran
         cleanD.includes('ke toan') || cleanD.includes('tai chinh') ||
         cleanD.includes('ha tang') || cleanD.includes('vien thong') ||
         cleanD.includes('ke hoach') || cleanD.includes('kinh doanh') || cleanD.includes('kh kd') || cleanD.includes('khkd') || cleanD.includes('kinh doanh tong hop') || cleanD.includes('kdth')) {
-      finalBranch = 'Văn phòng tổng công ty MFS';
+      finalBranch = 'Văn phòng Công ty MFS';
     } else {
       finalBranch = 'Chi nhánh miền Bắc';
     }
@@ -93,7 +93,7 @@ export function migrateBranchAndDept(rawBranch: string, rawDept: string): { bran
         cleanD.includes('ke toan') || cleanD.includes('tai chinh') ||
         cleanD.includes('ha tang') || cleanD.includes('vien thong') ||
         cleanD.includes('ke hoach') || cleanD.includes('kinh doanh') || cleanD.includes('kh kd') || cleanD.includes('khkd')) {
-      finalBranch = 'Văn phòng tổng công ty MFS';
+      finalBranch = 'Văn phòng Công ty MFS';
     } else {
       finalBranch = 'Chi nhánh miền Bắc';
     }
@@ -101,7 +101,7 @@ export function migrateBranchAndDept(rawBranch: string, rawDept: string): { bran
 
   // 2. Map Department based on Branch
   let finalDept = '';
-  if (finalBranch === 'Văn phòng tổng công ty MFS') {
+  if (finalBranch === 'Văn phòng Công ty MFS') {
     if (cleanD.includes('giam doc') || cleanD.includes('tgd') || cleanD.includes('bgd')) {
       finalDept = 'BAN TỔNG GIÁM ĐỐC';
     } else if (cleanD.includes('to chuc') || cleanD.includes('tchc') || cleanD.includes('hanh chinh') || cleanD.includes('tuyển dung') || cleanD.includes('bhxh') || cleanD.includes('luong')) {
@@ -230,7 +230,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Vũ Quang Hải",
     "Gender": "Nam",
     "DOB": "1973-02-19",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "BAN TỔNG GIÁM ĐỐC",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -245,7 +245,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Ngọc Thảo",
     "Gender": "Nam",
     "DOB": "1984-07-10",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "BAN TỔNG GIÁM ĐỐC",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -260,7 +260,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Tăng Ngọc Sơn",
     "Gender": "Nam",
     "DOB": "1980-12-22",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. TỔ CHỨC - HÀNH CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -275,7 +275,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Thu Huyền",
     "Gender": "Nữ",
     "DOB": "1980-01-14",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. TỔ CHỨC - HÀNH CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -290,7 +290,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Bùi Thị Yêu",
     "Gender": "Nữ",
     "DOB": "1991-02-20",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. TỔ CHỨC - HÀNH CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -305,7 +305,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Phạm Thị Thu Nga",
     "Gender": "Nữ",
     "DOB": "1991-07-01",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. TỔ CHỨC - HÀNH CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -320,7 +320,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Phạm Thị Bích Phương",
     "Gender": "Nữ",
     "DOB": "1990-10-28",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. TỔ CHỨC - HÀNH CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -335,7 +335,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Thái Ngân",
     "Gender": "Nữ",
     "DOB": "1992-09-08",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. TỔ CHỨC - HÀNH CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -350,7 +350,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Lê Thị Thu Hằng",
     "Gender": "Nữ",
     "DOB": "1985-10-29",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. TỔ CHỨC - HÀNH CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -365,7 +365,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Đỗ Thị Hiên",
     "Gender": "Nữ",
     "DOB": "1978-12-18",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. TỔ CHỨC - HÀNH CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -380,7 +380,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Huyền Trang",
     "Gender": "Nữ",
     "DOB": "1990-11-14",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. TỔ CHỨC - HÀNH CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -395,7 +395,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Đinh Văn Đức",
     "Gender": "Nam",
     "DOB": "1977-09-02",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. TỔ CHỨC - HÀNH CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -410,7 +410,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Anh Tú",
     "Gender": "Nam",
     "DOB": "1977-10-10",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ TOÁN - TÀI CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -425,7 +425,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Đỗ Thị Thanh Thủy",
     "Gender": "Nữ",
     "DOB": "1987-10-07",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ TOÁN - TÀI CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -440,7 +440,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Trần Thị Hồng Nhung",
     "Gender": "Nữ",
     "DOB": "1990-10-08",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ TOÁN - TÀI CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -455,7 +455,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Thị Thu Huyền",
     "Gender": "Nữ",
     "DOB": "1987-06-11",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ TOÁN - TÀI CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -470,7 +470,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Vũ Thị Huyền Trang",
     "Gender": "Nữ",
     "DOB": "1987-11-04",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ TOÁN - TÀI CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -485,7 +485,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Vũ Minh Nguyệt",
     "Gender": "Nữ",
     "DOB": "1988-10-02",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ TOÁN - TÀI CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -500,7 +500,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Phan Thị Thu Hiền",
     "Gender": "Nữ",
     "DOB": "1994-10-25",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ TOÁN - TÀI CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -515,7 +515,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Lê Thanh Nga",
     "Gender": "Nữ",
     "DOB": "1979-07-14",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ TOÁN - TÀI CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -530,7 +530,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Phạm Thị Thu Hiền",
     "Gender": "Nữ",
     "DOB": "1991-06-24",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ TOÁN - TÀI CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -545,7 +545,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Thị Thu Nga",
     "Gender": "Nữ",
     "DOB": "1975-10-15",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ TOÁN - TÀI CHÍNH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -560,7 +560,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Xuân Lộc",
     "Gender": "Nam",
     "DOB": "1987-10-10",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ HOẠCH - KINH DOANH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -575,7 +575,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Thái Hưng",
     "Gender": "Nam",
     "DOB": "1972-03-02",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ HOẠCH - KINH DOANH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -590,7 +590,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Luyện Diệu Linh",
     "Gender": "Nữ",
     "DOB": "1984-11-23",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ HOẠCH - KINH DOANH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -605,7 +605,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Đặng Hạ Thy",
     "Gender": "Nữ",
     "DOB": "1982-05-14",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ HOẠCH - KINH DOANH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -620,7 +620,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Thị Thanh Mai",
     "Gender": "Nữ",
     "DOB": "1995-10-22",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ HOẠCH - KINH DOANH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -635,7 +635,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Cái Thị Phương Anh",
     "Gender": "Nữ",
     "DOB": "1982-09-04",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ HOẠCH - KINH DOANH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -650,7 +650,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Thị Diệu Linh",
     "Gender": "Nữ",
     "DOB": "1993-10-14",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ HOẠCH - KINH DOANH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -665,7 +665,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Vũ Văn Trọng",
     "Gender": "Nam",
     "DOB": "1990-06-06",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ HOẠCH - KINH DOANH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -680,7 +680,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Hà Thị Nhàn",
     "Gender": "Nữ",
     "DOB": "1992-04-15",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ HOẠCH - KINH DOANH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -695,7 +695,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Trần Thị Vi",
     "Gender": "Nữ",
     "DOB": "1985-10-16",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ HOẠCH - KINH DOANH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -710,7 +710,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Danh Kha",
     "Gender": "Nam",
     "DOB": "1970-05-05",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ HOẠCH - KINH DOANH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -725,7 +725,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Sông Hương",
     "Gender": "Nam",
     "DOB": "1979-11-01",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. CÔNG NGHỆ SỐ",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -740,7 +740,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Thanh Bình",
     "Gender": "Nam",
     "DOB": "1982-02-27",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. CÔNG NGHỆ SỐ",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -755,7 +755,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Cao Thị Thủy Lan",
     "Gender": "Nữ",
     "DOB": "1993-11-03",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. CÔNG NGHỆ SỐ",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -770,7 +770,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Quang Huy",
     "Gender": "Nam",
     "DOB": "1993-01-15",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ HOẠCH - KINH DOANH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -785,7 +785,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Lê Đình Hưng",
     "Gender": "Nam",
     "DOB": "1979-01-22",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. KẾ HOẠCH - KINH DOANH",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -800,7 +800,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Vũ Quang Trung",
     "Gender": "Nam",
     "DOB": "1991-07-06",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. CÔNG NGHỆ SỐ",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -815,7 +815,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Tưởng Huy Linh",
     "Gender": "Nam",
     "DOB": "1984-07-08",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. HẠ TẦNG - VIỄN THÔNG",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -830,7 +830,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Đặng Việt Hưng",
     "Gender": "Nam",
     "DOB": "1980-06-30",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. HẠ TẦNG - VIỄN THÔNG",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -845,7 +845,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Văn Luân",
     "Gender": "Nam",
     "DOB": "1989-05-12",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. HẠ TẦNG - VIỄN THÔNG",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -860,7 +860,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Nguyễn Văn Hường",
     "Gender": "Nam",
     "DOB": "1982-08-09",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. HẠ TẦNG - VIỄN THÔNG",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",
@@ -875,7 +875,7 @@ export const INITIAL_MEMBERS: Member[] = [
     "FullName": "Vũ Huy Hoàng",
     "Gender": "Nam",
     "DOB": "1995-10-09",
-    "Branch": "Văn phòng tổng công ty MFS",
+    "Branch": 'Văn phòng Công ty MFS',
     "Department": "P. HẠ TẦNG - VIỄN THÔNG",
     "JoinDate": "2015-01-01",
     "Status": "Đang hoạt động",

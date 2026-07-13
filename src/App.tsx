@@ -26,11 +26,11 @@ export default function App() {
     const saved = localStorage.getItem('mfs_members');
     let loaded = saved ? JSON.parse(saved) : INITIAL_MEMBERS;
     
-    // One-time cleanup of old "Văn phòng tổng công ty MFS" data from localStorage
+    // One-time cleanup of old 'Văn phòng Công ty MFS' data from localStorage
     const hasCleanedV3 = localStorage.getItem('mfs_cleaned_hq_v3');
     if (!hasCleanedV3) {
       // Find the employee codes of the 44 HQ members and clear any existing instances in localStorage
-      const hqEmployeeCodes = new Set(INITIAL_MEMBERS.filter(m => m.Branch === 'Văn phòng tổng công ty MFS').map(m => m.EmployeeCode));
+      const hqEmployeeCodes = new Set(INITIAL_MEMBERS.filter(m => m.Branch === 'Văn phòng Công ty MFS').map(m => m.EmployeeCode));
       loaded = loaded.filter((m: Member) => !hqEmployeeCodes.has(m.EmployeeCode));
       localStorage.setItem('mfs_cleaned_hq_v3', 'true');
     }

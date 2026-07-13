@@ -91,13 +91,13 @@ export default function ImportExcel({
   // Template reference schema
   const csvHeaders = 'EmployeeCode,FullName,Gender,DOB,Branch,Department,JoinDate,Status,Phone,Email,UnionPosition,Title';
 
-  const badSampleText = `MFS801,Phạm Thành Luân,Nam,1995-04-10,Văn phòng tổng công ty MFS,Phòng CNS,2022-01-15,Đang hoạt động,0913554432,luan.pt@mobifoneservice.com.vn,Đoàn viên,Chuyên viên
+  const badSampleText = `MFS801,Phạm Thành Luân,Nam,1995-04-10,Văn phòng Công ty MFS,Phòng CNS,2022-01-15,Đang hoạt động,0913554432,luan.pt@mobifoneservice.com.vn,Đoàn viên,Chuyên viên
 MFS001,Trùng Mã Nhân Viên,Nam,1990-11-20,Chi nhánh miền Nam,Phòng KD & VHDV,2015-08-16,Đang hoạt động,0904123123,trungma@mobifoneservice.com.vn,Đoàn viên,Chuyên viên
 MFS802,Lê Thùy Anh,Nữ,1997-08-30,Chi nhánh miền Nam,Phòng KD & VHDV,2023-05-10,Đang hoạt động,0909556677,lethuyanh@mobifoneservice.com.vn,Đoàn viên,Chuyên viên
 MFS803,Nguyễn Trọng Đại,Nam,1999-99-99,Chi nhánh miền Trung,Phòng VH HT-VT,2025-02-14,Đang hoạt động,093455,nguyentrongdai@gmail,Đoàn viên,Chuyên viên
-MFS804,,Nữ,1998-10-12,Văn phòng tổng công ty MFS,Phòng CNS,22-02-2022,Đang hoạt động,0903334444,huyen.vtt@mobifoneservice.com.vn,Ủy viên Ban Chấp hành công đoàn,Chuyên viên`;
+MFS804,,Nữ,1998-10-12,Văn phòng Công ty MFS,Phòng CNS,22-02-2022,Đang hoạt động,0903334444,huyen.vtt@mobifoneservice.com.vn,Ủy viên Ban Chấp hành công đoàn,Chuyên viên`;
 
-  const goodSampleText = `MFS901,Phạm Minh Tuấn,Nam,1996-03-12,Văn phòng tổng công ty MFS,Phòng CNS,2021-05-18,Đang hoạt động,0904556622,tuan.pm@mobifoneservice.com.vn,Đoàn viên,Kỹ sư Công nghệ số
+  const goodSampleText = `MFS901,Phạm Minh Tuấn,Nam,1996-03-12,Văn phòng Công ty MFS,Phòng CNS,2021-05-18,Đang hoạt động,0904556622,tuan.pm@mobifoneservice.com.vn,Đoàn viên,Kỹ sư Công nghệ số
 MFS902,Hoàng Lê Vy,Nữ,1998-07-25,Chi nhánh miền Nam,Phòng KD & VHDV,2022-11-10,Đang hoạt động,0909112233,vy.hl@mobifoneservice.com.vn,Bí thư Chi đoàn,Chuyên viên CSKH
 MFS903,Hồ Hoàng Nam,Nam,1994-11-02,Chi nhánh miền Trung,Phòng VH HT-VT,2019-03-15,Đang hoạt động,0912445588,nam.hh@mobifoneservice.com.vn,Đoàn viên,Chuyên viên Vô tuyến`;
 
@@ -105,7 +105,7 @@ MFS903,Hồ Hoàng Nam,Nam,1994-11-02,Chi nhánh miền Trung,Phòng VH HT-VT,20
   const handleDownloadTemplate = () => {
     const csvContent = "\uFEFF" + [
       csvHeaders,
-      'MFS901,Phạm Minh Tuấn,Nam,1996-03-12,Văn phòng tổng công ty MFS,Phòng CNS,2021-05-18,Đang hoạt động,0904556622,tuan.pm@mobifoneservice.com.vn,Đoàn viên,Kỹ sư Công nghệ số',
+      'MFS901,Phạm Minh Tuấn,Nam,1996-03-12,Văn phòng Công ty MFS,Phòng CNS,2021-05-18,Đang hoạt động,0904556622,tuan.pm@mobifoneservice.com.vn,Đoàn viên,Kỹ sư Công nghệ số',
       'MFS902,Hoàng Lê Vy,Nữ,1998-07-25,Chi nhánh miền Nam,Phòng KD & VHDV,2022-11-10,Đang hoạt động,0909112233,vy.hl@mobifoneservice.com.vn,Bí thư Chi đoàn,Chuyên viên CSKH'
     ].join('\n');
     const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
@@ -289,7 +289,7 @@ MFS903,Hồ Hoàng Nam,Nam,1994-11-02,Chi nhánh miền Trung,Phòng VH HT-VT,20
         if (cleanInput.includes('da nang') || cleanInput.includes('mien trung') || cleanInput.includes('trung')) {
           finalBranch = 'Chi nhánh miền Trung';
         } else if (cleanInput.includes('ha noi') || cleanInput.includes('tong cong ty') || cleanInput.includes('văn phong')) {
-          finalBranch = 'Văn phòng tổng công ty MFS';
+          finalBranch = 'Văn phòng Công ty MFS';
         } else if (cleanInput.includes('mien bac') || cleanInput.includes('bac') || cleanInput.includes('hn')) {
           finalBranch = 'Chi nhánh miền Bắc';
         } else if (cleanInput.includes('mien nam') || cleanInput.includes('ho chi minh') || cleanInput.includes('sai gon') || cleanInput.includes('hcm') || cleanInput.includes('nam') || cleanInput.includes('mien tay') || cleanInput.includes('can tho') || cleanInput.includes('tay')) {

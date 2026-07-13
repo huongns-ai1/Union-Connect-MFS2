@@ -342,9 +342,9 @@ export default function Dashboard({ members, currentUser, branches }: DashboardP
           <div className="flex flex-col items-center relative">
             <div className="bg-slate-900 text-white p-4 rounded-xl shadow-md border border-slate-800 text-center w-64 z-10 hover:shadow-lg transition cursor-default">
               <span className="text-[10px] tracking-wider uppercase opacity-75 font-semibold block">Cơ quan điều hành</span>
-              <strong className="text-xs font-black block mt-0.5">VĂN PHÒNG TỔNG CÔNG TY MFS</strong>
+              <strong className="text-xs font-black block mt-0.5">VĂN PHÒNG CÔNG TY MFS</strong>
               <div className="mt-2 text-[10px] bg-slate-800 border border-slate-700 rounded py-1 px-1.5 text-blue-300 font-bold">
-                {members.filter(m => m.Branch === 'Văn phòng tổng công ty MFS' && !m.DeletedAt && m.Status === 'Đang hoạt động').length} Đoàn viên hoạt động
+                {members.filter(m => m.Branch === 'Văn phòng Công ty MFS' && !m.DeletedAt && m.Status === 'Đang hoạt động').length} Đoàn viên hoạt động
               </div>
             </div>
             {/* Downward connector line to branches */}
@@ -361,11 +361,11 @@ export default function Dashboard({ members, currentUser, branches }: DashboardP
               <div className="xl:absolute xl:top-0 xl:left-1/2 xl:-translate-x-1/2 xl:h-8 xl:w-0.5 xl:bg-slate-200 xl:-mt-12 z-0"></div>
               <div className="text-center pb-2 border-b border-slate-200/60">
                 <span className="text-[9px] font-bold text-slate-400 uppercase tracking-widest block">Khối cơ quan</span>
-                <strong className="text-xs font-extrabold text-slate-800 block">VP TỔNG CÔNG TY</strong>
+                <strong className="text-xs font-extrabold text-slate-800 block">VĂN PHÒNG CÔNG TY MFS</strong>
               </div>
               <div className="space-y-2">
-                {BRANCH_DEPARTMENTS['Văn phòng tổng công ty MFS'].map(dept => {
-                  const cnt = members.filter(m => m.Branch === 'Văn phòng tổng công ty MFS' && m.Department === dept && !m.DeletedAt && m.Status === 'Đang hoạt động').length;
+                {BRANCH_DEPARTMENTS['Văn phòng Công ty MFS'].map(dept => {
+                  const cnt = members.filter(m => m.Branch === 'Văn phòng Công ty MFS' && m.Department === dept && !m.DeletedAt && m.Status === 'Đang hoạt động').length;
                   return (
                     <div key={dept} className="bg-white p-2.5 rounded-lg border border-slate-100 shadow-3xs hover:border-blue-200 hover:shadow-2xs transition flex items-center justify-between">
                       <span className="text-xs font-bold text-slate-700">{dept}</span>
