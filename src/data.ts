@@ -185,12 +185,12 @@ export const INITIAL_USERS: User[] = [
   },
   {
     id: 'user_2',
-    email: 'hungnv@mobifoneservice.com.vn',
-    fullName: 'Nguyễn Văn Hùng',
+    email: 'phuonghc@mobifoneservice.com.vn',
+    fullName: 'Hoàng Công Phương',
     role: 'ADMIN_BRANCH',
     branch: 'Chi nhánh miền Bắc',
-    avatarUrl: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150',
-    employeeCode: 'UC00586'
+    avatarUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150',
+    employeeCode: 'MFS00038'
   },
   {
     id: 'user_3',
@@ -2935,7 +2935,7 @@ export const INITIAL_NEWS: NewsPost[] = [
     authorName: 'BCH Công đoàn Tổng',
     createdAt: '2026-05-28T08:30:00Z',
     likes: 24,
-    likedBy: ['hungnv@mobifoneservice.com.vn', 'lamtt@mobifoneservice.com.vn'],
+    likedBy: ['phuonghc@mobifoneservice.com.vn', 'lamtt@mobifoneservice.com.vn'],
     attachments: [
       { name: 'Quyet_Dinh_Khen_Thuong_Q1_2026.pdf', size: '1.2 MB', url: '#' }
     ]
@@ -2948,7 +2948,7 @@ export const INITIAL_NEWS: NewsPost[] = [
     authorName: 'BCH Công đoàn Tổng',
     createdAt: '2026-05-25T14:15:00Z',
     likes: 42,
-    likedBy: ['huongns@mobifoneservice.com.vn', 'nguyenhoangvy182@gmail.com', 'hungnv@mobifoneservice.com.vn'],
+    likedBy: ['huongns@mobifoneservice.com.vn', 'nguyenhoangvy182@gmail.com', 'phuonghc@mobifoneservice.com.vn'],
     externalLink: 'https://mobifoneservice.com.vn/hoat-dong-noi-bo',
     attachments: [
       { name: 'The_Le_Giai_Chay_Run_2026.pdf', size: '840 KB', url: '#' },
